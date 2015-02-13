@@ -1,6 +1,6 @@
 # Mina::Bower
 
-TODO: Write a gem description
+Integrate bower into mina for deployment
 
 ## Installation
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your deploy.rb add this
+
+```
+require 'mina/bower'
+```
+
+Then within your deploy task add this line to install bower depdenencies
+
+```
+invoke :'bower:install'
+```
 
 ## Contributing
 
