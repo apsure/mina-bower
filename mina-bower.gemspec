@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Mina::Bower::VERSION
   spec.authors       = ["Nathan Palmer"]
   spec.email         = ["nathan@sprucemedia.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "A Summary"
+  spec.description   = "A Description"
   spec.homepage      = ""
   spec.license       = "MIT"
 
